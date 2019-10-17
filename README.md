@@ -19,8 +19,7 @@ Having trouble? Salesforce.org staff and your fellow sprinters are here to help!
 
 
 ### Project Resources
-* Indicate if there are any existing Hub Ideas, or product Issues/Bugs that you're solving for. 
-* Where can we find additional information on your project? Ie. do you have supporting code in another Repo, do you have documentation in Google, your repo's Wiki, etc.? Be sure to include (or at least links to) all supporting material here. If it's not in your project Repo, it will get lost.
+* [Additional detail in Quip.](quip.com/ypGDAc8nMHhy)
 
 ### Project Team Accomplishments
 What did the Project Team accomplished during the Sprint?
