@@ -8,14 +8,7 @@ Help us give you the thanks you deserve! Please ensure that all contributing mem
 * List of all Contributors:
 
 ### Project Vision (Your first task as a team)
-Let people know what the value and intended benefits of your project are. The most successful projects will have an extremely clear and well-articulated vision. Answer these questions before you start talking about solutions:
-* What is the big problem that your project is trying to solve?
-* Who will be using your project?
-* A year from now, how do you see people describing your project?
-
-Use these questions to form a clear vision statement of 3-5 sentences (rough guideline). 
-
-Having trouble? Salesforce.org staff and your fellow sprinters are here to help! Use one of your table's request signs and/or post in the Quip Chat to seek help, and we'll pop by.
+We envision a feature set for Engagement Plans that allows for more flexibility and less data duplication. We specifically want to focus on assigning individual tasks to the parent object using criteria.
 
 
 ### Project Resources
@@ -25,7 +18,6 @@ Having trouble? Salesforce.org staff and your fellow sprinters are here to help!
 What did the Project Team accomplished during the Sprint?
 
 ### Future Contributions (AKA what were you unable to finish at the Sprint)
-Often, it takes multiple Sprints to contribute an idea back into the Community. What happens at a Sprint does not stay at a Sprint! If someone were to contribute to this project at the next Sprint what would you want them to work on to move this project forward?<br><br>
-* What is your project's Roadmap?
+
 
 **Important**: If you have specific asks to help move this project forward we would recommend that you list them here, but also create separate Issues for each and add the label of "help wanted". This is a well-worn best practice for projects living in GitHub.
