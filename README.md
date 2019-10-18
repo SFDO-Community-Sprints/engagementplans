@@ -1,4 +1,5 @@
-1. Use Case Scenarios: Create documentation around ways to use engagement plans that are Service Cloud related - https://kellpartners.quip.com/cSEAEADxoJD
+
+## 1. Use Case Scenarios: Create documentation around ways to use engagement plans that are Service Cloud related - https://kellpartners.quip.com/cSEAEADxoJD
 
 _*Use Case - Community Foundation*_
 
@@ -83,9 +84,9 @@ _EP Task Assignment Criteria_
 * If Owner.IsActive == true, send thank you letter Owner
 * If Owner.Isactive == false, send thank you letter Solicitor__c
 
-2.  Updated ERD
+## 2.  Updated ERD
 
-3. Task Criteria: Allow for conditional logic for engagement plan tasks https://kellpartners.quip.com/YeBAEAHbr8U
+## 3. Task Criteria: Allow for conditional logic for engagement plan tasks https://kellpartners.quip.com/YeBAEAHbr8U
 
 Example: for a single engagement plan template, after the first task, of the contact lives in New York trigger a for a user to call the user. If the contact does not live in New York, create a task to email them. 
 
@@ -150,7 +151,7 @@ LOGIC
             6. All other Tasks fields are populated using the values on Task Inventory Item and according to the existing logic around creating Tasks from Engagement Plan Tasks
     3. If the Task Inventory Item being copied has dependent tasks, all dependent tasks should also be copied
 
-4.  Custom Field Mapping: Allow for mapping from Engagement Plan Task to SF Task for custom fields 
+## 4.  Custom Field Mapping: Allow for mapping from Engagement Plan Task to SF Task for custom fields 
 
 Ability to:
 
@@ -172,7 +173,7 @@ What will be worked on:
 * If a Custom Field is added to the Engagement Plan Task Object, it can be manually added to the Engagement Plan Task record *NOT* VisualForce page npsp__EP_ManageEPTemplate. 
 * It will be designed to map a custom field named exactly the same, to the custom field on the Task Object, and will be based on API Name, not label
 
-5. Custom Task Fields: Add custom fields to Engagement Plan Setup Page
+## 5. Custom Task Fields: Add custom fields to Engagement Plan Setup Page
 
 how to:
 
@@ -183,7 +184,7 @@ issues to Note:
 
 * Formatting of the VisualForce page will be limited, as the field set is pre-referenced in the code, adding too many fields may offset and create issues with formatting
 
-6. Allow option to delete or close tasks associated with previous engagement plan when a new one is added
+## 6. Allow option to delete or close tasks associated with previous engagement plan when a new one is added
 
 Ability to:
 
@@ -197,15 +198,14 @@ So that:
 
 * A volunteer reaches a particular achievement and a task list for a series of recognition actions is created. A few days after the Task List is assigned, the volunteer resigns. The Volunteer Coordinator would like to quickly mark all the remaining open tasks as Cancelled.
 
-7.  Future Contributions (AKA what were you unable to finish at the Sprint)
+## 7.  Future Contributions (AKA what were you unable to finish at the Sprint)
 
 1. Put Engagement Plans in EDA
 2. Other action types: In addition to tasks, allow users to set other actions (ideas were adding to a campaign, updating a field on the object)
 3.  Editing Task List Template: allow a user to be able to view and edit Task Inventory Items and criteria prior to creating a Task List through the same interface as if they were creating a new template 
+4. create this as a standalone item that can be used in any org (npsp, enterprise, eda, etc)
 
-1. create this as a standalone item that can be used in any org (npsp, enterprise, eda, etc)
-
-Existing Resources 
+## Existing Resources 
 
 * https://trailhead.salesforce.com/en/content/learn/modules/moves-management-with-nonprofit-success-pack/manage-engagement-plans
 * http://powerofus.force.com/s/article/NPSP-Create-and-Manage-Engagement-Plans#ariaid-title12
