@@ -1,5 +1,6 @@
 
-## 1. Use Case Scenarios: Create documentation around ways to use engagement plans that are Service Cloud related - https://kellpartners.quip.com/cSEAEADxoJD
+## 1. Use Case Scenarios: Create documentation around ways to use engagement plans that are Service Cloud related
+https://kellpartners.quip.com/cSEAEADxoJD
 
 _*Use Case - Community Foundation*_
 
