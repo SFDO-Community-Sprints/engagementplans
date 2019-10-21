@@ -55,7 +55,7 @@ In my role as a fundraising director,
 I want to assign tasks to a range of people related to the opportunity or account
 So that the users who would be involved in a solicitation are assigned automatically.
 
-#### EP Plan Template/Task List Template_: Major Gift Solicitation
+#### EP Plan Template/Task List Template: Major Gift Solicitation
 ##### EP Task Inventory
 
 * Assign Primary Solicitor
@@ -71,6 +71,7 @@ So that the users who would be involved in a solicitation are assigned automatic
 * If Owner.Isactive == false, send thank you letter Solicitor__c
 
 ## 2.  Updated ERD
+![ERD](assets/ERD.png)
 
 ## 3. Task Criteria: Allow for conditional logic for engagement plan tasks
 
@@ -117,7 +118,7 @@ _Fields on the Task Assignment Criteria object_
 3. *Task WhatID*: A metadata lookup field that lets you reference the record that this task should be assignment to. We envision a Process Builder type interface that would let you traverse through lookup fields (ex. If the Task_List_Template.Target_Object is Payment, then you could go Payment→Opportunity→Primary_Contact to create the task for the related Opportunity Primary Contact.
 4. *Criteria*: A text field that allows the user to write a SOQL expression which will determine when the Task Inventory Item should create a Task whenever the Task List Template is assigned to an Object. It would be idea if this feature could have a Workflow Rule interface where the user can select fields 
 5. *Task List Template*: Lookup to Task List Template object.
-6. *Task Inventory Item: *Lookup to the Task Inventory Item object.
+6. *Task Inventory Item:* Lookup to the Task Inventory Item object.
 
 LOGIC
 
@@ -160,7 +161,7 @@ What will be worked on:
 * It will be designed to map a custom field named exactly the same, to the custom field on the Task Object, and will be based on API Name, not label
 
 ## 5. Custom Task Fields: Add custom fields to Engagement Plan Setup Page
-
+![EP Setup Page](assets/EPSetup.png)
 how to:
 
 * Custom Fields can be added to Engagement Plans through the Field Set npsp__ManageEPTemplateFS.
@@ -201,7 +202,7 @@ So that:
 
 
 
-Testing Data
+## Testing Data
 
 * Create fields between Engagement Plan Tasks and Tasks that match based on API name:
     * Match
@@ -223,20 +224,9 @@ Testing Data
         * Engagement Plan Task field (Text 255) - Standalone_Engagement_Plan_Task
         * Task field (Text 255) - Standalone_Field_Task
 
-Mapping
+### Mapping
 
 Engagement Plan Task to Task - Source Fields need to match the Target fields API Names and Field Type. However, there are exceptions and most fields at the Source, can map to the Target if the Target field on Tasks is Text.
 
-
-Source	Destination	Ok?
-Text (255)	Text (255)	✅
-Picklist	Text (255)	✅
-Text (255)	Picklist	✅
-Formula	Text (255)	✅
-Checkbox	Text (255)	✅
-Number	Checkbox	❌
-Text	Boolean	❌
-Ecrypted Fields	Anything	❌
-Text	Multi-Select Picklist	✅
-Text	Number	❌
+![MappingTable](assets/SourcetoDestination.png)
 
