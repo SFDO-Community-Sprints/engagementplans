@@ -1,6 +1,5 @@
 # Engagement Plans 2.0
 ## Project Team
-Help us give you the thanks you deserve! Please ensure that all contributing members of the team are included!	Help us give you the thanks you deserve! Please ensure that all contributing members of the team are included!
 * Team Leader(s):	Annette Pretorius
 * GitHub Scribe(s): Viv Yeung, Allison Letts, Greer Zimmerman
 * List of all Contributors:	Michael Beaty, John Brandolini, Justin Gilmore
