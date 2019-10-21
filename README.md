@@ -1,15 +1,14 @@
 
 ## 1. Use Case Scenarios: Create documentation around ways to use engagement plans that are Service Cloud related
-https://kellpartners.quip.com/cSEAEADxoJD
 
-_*Use Case - Community Foundation*_
+### Use Case - Community Foundation
 
 In my role as a community foundation program officer, I want my grantees to receive reminders and scheduled office hours appointments about when their requirements are due so that they are proactively engaged and meeting their deadlines.
  
 In my role as a community foundation program officer, I want to have reminders to invite my grantees to my open office hours so that I can answer their questions and be responsive to their needs. 
 
-_EP Plan Template_: 2019 Awarded Grantee
-_EP Task_: 
+#### EP Plan Template: 2019 Awarded Grantee 
+##### EP Task: 
 
 1. Scheduled Office Hours for Quarter 1
     1. Grantee to Submit Questions
@@ -24,61 +23,47 @@ _EP Task_:
     1. Send report to Grantee’s Senior Leader for their approval
     2. Review grantee reports and approve responses
 
-_EP Task Assignment: _
+##### EP Task Assignment:
 
 * If “Arts and Culture” grant program Office Hours is an optional task, It should be created but the name and fields should be slightly different.
 * Depending on grant Program assign different Program Officer 
 * If Grant amount is less than $25,000, mid year report should not be assigned
 * If “Basic Needs” grant program Senior Leader is not required
 
-_*Use Case - Direct Service Org *_
+### Use Case - Direct Service Org
 
 In my role as a Program Intake Coordinator 
 I want to after I determine which programs a person is eligible for set up tasks for other programs to follow up and take their next steps
 So that the person can get the services they need to stabilize their life 
 
-_EP Plan Template_: 
-_EP Task Assignment_: 
-_EP Task_: 
-
-_*Use Case - Partner Help Desk*_
+### Use Case - Partner Help Desk
 
 In my role as an IT Support Coordinator
 I want to send and confirm scheduled appointment dates and ensure that follow-up messages are sent and survey requests are 
 So that the clients feel supported and to ensure that their IT requests are full-filled and their feedback is solicited when the support case is complete
 
-EP Plan Template: 
-EP Task Assignment: 
-EP Task: 
-
-_*Use Case - Teachers*_
+### Use Case - Teachers
 
 In my role as a teacher
 I want to assign tasks to parents/guardians of students 
 So that to ensure that parents/guardians are aware of upcoming meetings, professional development days and milestones for their children 
 
-_EP Plan Template_: 
-_EP Task Assignment_: 
-_EP Task_: 
-
-*_Use Case - Fundraisers _*
+### Use Case - Fundraisers 
 
 Clearly this isn’t Service Cloud, but task assignment criteria are important to roles and orgs across the ecosystem.
 In my role as a fundraising director,
 I want to assign tasks to a range of people related to the opportunity or account
 So that the users who would be involved in a solicitation are assigned automatically.
 
-*https://kellpartners.quip.com/USLAEAKAXSF *
-
-_EP Plan Template/Task List Template_: Major Gift Solicitation
-_EP Task Inventory_*:*
+#### EP Plan Template/Task List Template_: Major Gift Solicitation
+##### EP Task Inventory
 
 * Assign Primary Solicitor
 * Make phone call to donor
 * Send thank you letter
 * Review wealth screening
 
-_EP Task Assignment Criteria_
+##### EP Task Assignment Criteria
 
 * If P2G score > 3 && Solicitor isblank, create task to assign primary solicitor via PB
 * If P2G score > 3 && Solicitor not(isblank), make phone call to donor Solicitor__c
@@ -87,7 +72,7 @@ _EP Task Assignment Criteria_
 
 ## 2.  Updated ERD
 
-## 3. Task Criteria: Allow for conditional logic for engagement plan tasks https://kellpartners.quip.com/YeBAEAHbr8U
+## 3. Task Criteria: Allow for conditional logic for engagement plan tasks
 
 Example: for a single engagement plan template, after the first task, of the contact lives in New York trigger a for a user to call the user. If the contact does not live in New York, create a task to email them. 
 
