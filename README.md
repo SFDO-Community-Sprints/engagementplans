@@ -1,3 +1,9 @@
+# Engagement Plans 2.0
+## Project Team
+Help us give you the thanks you deserve! Please ensure that all contributing members of the team are included!	Help us give you the thanks you deserve! Please ensure that all contributing members of the team are included!
+* Team Leader(s):	Annette Pretorius
+* GitHub Scribe(s): Viv Yeung, Allison Letts, Greer Zimmerman
+* List of all Contributors:	Michael Beaty, John Brandolini, Justin Gilmore
 
 ## 1. Use Case Scenarios: Create documentation around ways to use engagement plans that are Service Cloud related
 
@@ -139,10 +145,11 @@ LOGIC
     3. If the Task Inventory Item being copied has dependent tasks, all dependent tasks should also be copied
 
 ## 4.  Custom Field Mapping: Allow for mapping from Engagement Plan Task to SF Task for custom fields 
+[This feature is a pull request on the Cumulus repo.](https://github.com/SalesforceFoundation/Cumulus/pull/4708) 
 
 Ability to:
 
-* Allowing a user to create additional fields that can be added to Engagement Plan Tasks
+* Allow a user to create additional fields that can be added to Engagement Plan Tasks
 * These fields would map to the subsequent Task records that are created on Engagement Plan assignment
 
 So that:
@@ -159,6 +166,34 @@ What will be worked on:
 
 * If a Custom Field is added to the Engagement Plan Task Object, it can be manually added to the Engagement Plan Task record *NOT* VisualForce page npsp__EP_ManageEPTemplate. 
 * It will be designed to map a custom field named exactly the same, to the custom field on the Task Object, and will be based on API Name, not label
+
+### Testing Data
+
+* Create fields between Engagement Plan Tasks and Tasks that match based on API name:
+    * Match
+     * Engagement Plan Task field (Text 255)- Test_Text_Field_Match
+     * Task field (Text 255)- Test_Text_Field_Match
+    * Don’t Match
+     * Engagement Plan Task field (Text 255) - Text_Number_Field_to_Number
+     * Task field (Number 16,2) - Text_Number_Field_to_Number
+    * Formula fields on the Task that match
+     * Engagement Plan Task field (Formula) - Formula_Task_Field_Match
+      * Task field (Text) - Formula_Task_Field_Match
+    * AutoNumber
+     * Engagement Plan Task field (Auto Number) - Auto_Number_to_Text_Field
+     * Task field (Text 255) - Auto_Number_to_Text_Field
+    * Same API name, different types of fields (Currency > Date)
+     * Engagement Plan Task field (Currency) - Currency_to_Date_field_Mapping
+     * Currency_to_Date_field_Mapping (Date) - Currency_to_Date_field_Mapping
+    * Standalone Fields with no Mapping and Different API names
+     * Engagement Plan Task field (Text 255) - Standalone_Engagement_Plan_Task
+     * Task field (Text 255) - Standalone_Field_Task
+
+### Mapping
+
+Engagement Plan Task to Task - Source Fields need to match the Target fields API Names and Field Type. However, there are exceptions and most fields at the Source, can map to the Target if the Target field on Tasks is Text.
+
+![MappingTable](assets/SourcetoDestination.png)
 
 ## 5. Custom Task Fields: Add custom fields to Engagement Plan Setup Page
 ![EP Setup Page](assets/EPSetup.png)
@@ -202,31 +237,5 @@ So that:
 
 
 
-## Testing Data
 
-* Create fields between Engagement Plan Tasks and Tasks that match based on API name:
-    * Match
-        * Engagement Plan Task field (Text 255)- Test_Text_Field_Match
-        * Task field (Text 255)- Test_Text_Field_Match
-    * Don’t Match
-        * Engagement Plan Task field (Text 255) - Text_Number_Field_to_Number
-        * Task field (Number 16,2) - Text_Number_Field_to_Number
-    * Formula fields on the Task that match
-        * Engagement Plan Task field (Formula) - Formula_Task_Field_Match
-        * Task field (Text) - Formula_Task_Field_Match
-    * AutoNumber
-        * Engagement Plan Task field (Auto Number) - Auto_Number_to_Text_Field
-        * Task field (Text 255) - Auto_Number_to_Text_Field
-    * Same API name, different types of fields (Currency > Date)
-        * Engagement Plan Task field (Currency) - Currency_to_Date_field_Mapping
-        * Currency_to_Date_field_Mapping (Date) - Currency_to_Date_field_Mapping
-    * Standalone Fields with no Mapping and Different API names
-        * Engagement Plan Task field (Text 255) - Standalone_Engagement_Plan_Task
-        * Task field (Text 255) - Standalone_Field_Task
-
-### Mapping
-
-Engagement Plan Task to Task - Source Fields need to match the Target fields API Names and Field Type. However, there are exceptions and most fields at the Source, can map to the Target if the Target field on Tasks is Text.
-
-![MappingTable](assets/SourcetoDestination.png)
 
