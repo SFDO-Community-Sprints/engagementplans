@@ -223,14 +223,13 @@ So that:
 
 * A volunteer reaches a particular achievement and a task list for a series of recognition actions is created. A few days after the Task List is assigned, the volunteer resigns. The Volunteer Coordinator would like to quickly mark all the remaining open tasks as Cancelled.
 
-## 7.  Future Contributions (AKA what were you unable to finish at the Sprint)
+# Future Contributions (AKA what were you unable to finish at the Sprint)
 
-1. Put Engagement Plans in EDA
-2. Other action types: In addition to tasks, allow users to set other actions (ideas were adding to a campaign, updating a field on the object)
-3.  Editing Task List Template: allow a user to be able to view and edit Task Inventory Items and criteria prior to creating a Task List through the same interface as if they were creating a new template 
-4. create this as a standalone item that can be used in any org (npsp, enterprise, eda, etc)
+1. Other action types: In addition to tasks, allow users to set other actions (ideas were adding to a campaign, updating a field on the object)
+1.  Editing Task List Template: allow a user to be able to view and edit Task Inventory Items and criteria prior to creating a Task List through the same interface as if they were creating a new template 
+1. Package this code independently of NPSP to support implementation in enterprise/EDA orgs (or minimally add to the EDA feature set)
 
-## Existing Resources 
+# Existing Resources 
 
 * https://trailhead.salesforce.com/en/content/learn/modules/moves-management-with-nonprofit-success-pack/manage-engagement-plans
 * http://powerofus.force.com/s/article/NPSP-Create-and-Manage-Engagement-Plans#ariaid-title12
