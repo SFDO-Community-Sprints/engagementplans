@@ -8,7 +8,8 @@
 We envision a feature set for Engagement Plans that allows for more flexibility and less data duplication. We specifically want to focus on assigning individual tasks to the parent object using criteria, and mapping custom fields onto engagement plan tasks.
 
 # Feature Details/Specifications
-## 1. Use Case Scenarios: Create documentation around ways to use engagement plans that are Service Cloud related
+## 1. Use Case Scenarios: 
+We documented potential use cases across a range of nonprofit contexts.
 
 ### Use Case - Community Foundation
 
@@ -59,7 +60,6 @@ So that to ensure that parents/guardians are aware of upcoming meetings, profess
 
 ### Use Case - Fundraisers 
 
-Clearly this isn’t Service Cloud, but task assignment criteria are important to roles and orgs across the ecosystem.
 In my role as a fundraising director,
 I want to assign tasks to a range of people related to the opportunity or account
 So that the users who would be involved in a solicitation are assigned automatically.
@@ -225,9 +225,9 @@ So that:
 
 # Future Contributions (AKA what were you unable to finish at the Sprint)
 
-1. Other action types: In addition to tasks, allow users to set other actions (ideas were adding to a campaign, updating a field on the object)
-1.  Editing Task List Template: allow a user to be able to view and edit Task Inventory Items and criteria prior to creating a Task List through the same interface as if they were creating a new template 
-1. Package this code independently of NPSP to support implementation in enterprise/EDA orgs (or minimally add to the EDA feature set)
+* Other action types: In addition to tasks, allow users to set other actions (ideas were adding to a campaign, updating a field on the object)
+*  Editing Task List Template: allow a user to be able to view and edit Task Inventory Items and criteria prior to creating a Task List through the same interface as if they were creating a new template 
+* Package this code independently of NPSP to support implementation in enterprise/EDA orgs (or minimally add to the EDA feature set)
 
 # Existing Resources 
 
