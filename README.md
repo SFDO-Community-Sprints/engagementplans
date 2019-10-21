@@ -1,9 +1,13 @@
-# Engagement Plans 2.0
+# Engagement Plans 2.0 - Overview
 ## Project Team
 * Team Leader(s):	Annette Pretorius
 * GitHub Scribe(s): Viv Yeung, Allison Letts, Greer Zimmerman
 * List of all Contributors:	Michael Beaty, John Brandolini, Justin Gilmore
 
+## Project Vision
+We envision a feature set for Engagement Plans that allows for more flexibility and less data duplication. We specifically want to focus on assigning individual tasks to the parent object using criteria, and mapping custom fields onto engagement plan tasks.
+
+# Feature Details/Specifications
 ## 1. Use Case Scenarios: Create documentation around ways to use engagement plans that are Service Cloud related
 
 ### Use Case - Community Foundation
